@@ -20,8 +20,6 @@ Este repositório reúne meus principais projetos práticos e estudos.
 - Java
 - Python
   
-Neste repositório, estão todos meus projetos.
-
 ##Projetos
 
 ##ONG ficticia

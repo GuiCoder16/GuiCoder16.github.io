@@ -24,5 +24,6 @@ Este repositório reúne meus principais projetos práticos e estudos.
 
 ##ONG ficticia
 - HTML, CSS e JavaScript
-- 🔗Demo:
-https://guicoder16.github.io/Instituto-Integridade-Animal/
+
+##Sistema de Pilha de Notas
+- Java, Swing

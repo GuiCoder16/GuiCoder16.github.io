@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Como Ajudar - Instituto Integridade Animal</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+    <style>
+        :root{
+            --verde:#0d5f41;
+            --verde-esc:#0a4a33;
+            --accent:#f5a623;
+            --card-bg: #fff;
+        }
+        body { background: linear-gradient(180deg,#f6fbf8 0%, #ffffff 40%); }
+        .hero {
+            background: linear-gradient(90deg, rgba(13,95,65,0.95), rgba(10,74,51,0.95)), url('./assets/img02.png') center/cover no-repeat;
+            color: #fff;
+            padding: 56px 20px;
+            text-align: center;
+        }
+        .hero h1 { font-size: 2.2rem; margin-bottom: 8px; }
+        .hero p { max-width: 900px; margin: 0 auto 20px; opacity: 0.95; }
+
+        .container { max-width: 1100px; margin: 32px auto; padding: 0 20px; }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+            gap: 18px;
+            align-items: start;
+        }
+
+        .help-card {
+            background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.97));
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 20px rgba(10,10,10,0.06);
+            transition: transform .18s ease, box-shadow .18s ease;
+            min-height: 220px;
+        }
+        .help-card:hover { transform: translateY(-6px); box-shadow: 0 18px 40px rgba(10,10,10,0.12); }
+        .help-card .icon {
+            width:56px;height:56px;border-radius:10px;background:var(--verde);display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;margin-bottom:12px;
+        }
+        .help-card h3 { margin: 0 0 8px; }
+        .help-card p { color:#444; line-height:1.45; }
+
+        .cta {
+            margin-top: 36px;
+            display:flex;
+            gap:24px;
+            flex-wrap:wrap;
+            color: #fff;
+        }
+        .btn-primary{
+            background: var(--verde);
+            color:#fff;
+            padding: 10px 18px;
+            border-radius: 10px;
+            text-decoration:none;
+            box-shadow: 0 6px 18px rgba(113, 187, 160, 0.18);
+        }
+        .btn-secondary{
+            background: transparent;
+            border: 2px solid var(--verde);
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 10px;
+            text-decoration:none;
+            box-shadow: 0 6px 18px rgba(113, 187, 160, 0.18);
+        }
+
+        .donate {
+            margin-top: 28px;
+            display:flex;
+            flex-wrap:wrap;
+            gap:16px;
+            align-items:center;
+            justify-content:space-between;
+            background: linear-gradient(90deg,#fff 0%, #fbfff9 100%);
+            border-radius: 12px;
+            padding: 18px;
+            box-shadow: 0 8px 20px rgba(10,10,10,0.05);
+        }
+        .donate .methods { display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+        .pill { background:#fff; border:1px solid #eee; padding:10px 14px; border-radius:10px; display:flex; gap:10px; align-items:center; }
+        footer { margin-top: 28px; }
+        @media (max-width:600px){
+            .hero h1{font-size:1.6rem;}
+            .donate{flex-direction:column; align-items:flex-start;}
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="./LogoPrimaria.png" alt="Logo Instituto Integridade Animal" class="logo">
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Início</a></li>
+            <div class="separador"></div>
+            <li><a href="sobre.html"><i class="fas fa-info-circle"></i> Sobre</a></li>
+            <div class="separador"></div>
+            <li><a href="adocao.html"><i class="fas fa-paw"></i> Adoção</a></li>
+            <div class="separador"></div>
+            <li><a href="como-ajudar.html" style="background-color: #0d5f418c; color: #fff;"><i class="fas fa-hand-holding-heart"></i> Como ajudar</a></li>
+            <div class="separador"></div>
+            <li><a href="contato.html"><i class="fas fa-envelope"></i> Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="space-header"></div>
+
+<section class="hero">
+    <h1>Junte-se a nós e transforme vidas</h1>
+    <p>Voluntariado, doações e parcerias — há muitas maneiras de ajudar. Cada contribuição mantém alimentação, cuidados veterinários e abrigo para animais que precisam.</p>
+    <div class="cta" style="margin-top:36px; justify-content:center;">
+        <a href="#voluntario" class="btn-primary">Quero ser voluntário</a>
+        <a href="#doar" class="btn-secondary">Como doar</a>
+    </div>
+</section>
+<main class="container">
+    <h2 style="text-align:center; margin-bottom:18px;">Formas de ajudar</h2>
+
+    <div class="grid-3">
+        <div class="help-card">
+            <div class="icon"><i class="fas fa-hands-helping"></i></div>
+            <h3>Voluntariado</h3>
+            <p>Seja parte da rotina do abrigo: cuide, socialize animais, ajude em castrações e eventos. Oferecemos treinamentos e horários flexíveis.</p>
+            <a class="btn-primary" href="#voluntario" style="margin-top:12px;display:inline-block;">Inscrever-se</a>
+        </div>
+
+        <div class="help-card">
+            <div class="icon"><i class="fas fa-hand-holding-heart"></i></div>
+            <h3>Doações financeiras</h3>
+            <p>Contribuições mensais ou pontuais garantem medicamentos, vacinas e alimentação. Transparência: atualizamos doações e gastos regularmente.</p>
+            <a class="btn-primary" href="#doar" style="margin-top:12px;display:inline-block;">Doar agora</a>
+        </div>
+
+        <div class="help-card">
+            <div class="icon"><i class="fas fa-box-open"></i></div>
+            <h3>Doações de itens</h3>
+            <p>Rações, cobertores, medicamentos e materiais de limpeza são sempre bem-vindos. Confira nossa lista de necessidades e pontos de entrega.</p>
+            <a class="btn-primary" href="#itens" style="margin-top:12px;display:inline-block;">Ver lista</a>
+        </div>
+    </div>
+
+    <section id="voluntario" style="margin-top:28px;">
+        <h3>Inscrição de voluntário</h3>
+        <p>Preencha o formulário rápido e nossa equipe entrará em contato com as próximas etapas.</p>
+        <form style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;">
+            <input type="text" placeholder="Nome completo" style="flex:1; padding:12px;border-radius:10px;border:1px solid #ddd;" required>
+            <input type="email" placeholder="E-mail" style="flex:1; padding:12px;border-radius:10px;border:1px solid #ddd;" required>
+            <input type="tel" placeholder="Telefone" style="flex:1; padding:12px;border-radius:10px;border:1px solid #ddd;">
+            <select style="flex:1;padding:12px;border-radius:10px;border:1px solid #ddd;">
+                <option>Horários disponíveis</option>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            <button class="btn-primary" style="margin-top:6px;">Enviar inscrição</button>
+        </form>
+    </section>
+
+    <section id="doar" style="margin-top:28px; background: #f9f9f9; padding: 20px; border-radius: 12px; box-shadow: 0 8px 20px rgba(10,10,10,0.05);">
+        <h3>Como doar</h3>
+        <div class="donate">
+            <div>
+                <strong>Conta para doações</strong>
+                <p style="margin:6px 0 0;color:#444;">Banco: 000 • Agência: 0000 • Conta: 000000-0 • CNPJ: 00.000.000/0000-00</p>
+            </div>
+            <div class="methods">
+                <div class="pill"><i class="fab fa-pix"></i> Pix: 00000000-0000</div>
+                <div class="pill"><i class="fas fa-credit-card"></i> Cartão: PagSeguro</div>
+                <div class="pill"><i class="fas fa-shipping-fast"></i> Entrega: Veja pontos de coleta</div>
+            </div>
+        </div>
+        <p style="margin-top:12px;color:#555;">Doações regulares ajudam a planejar atendimentos e reduzir emergências. Obrigado por confiar na nossa causa.</p>
+    </section>
+
+</main>
+
+<footer style="background: #0d5f41; color: #fff; text-align: center; padding: 18px 0;">
+    &copy; 2025 Instituto Integridade Animal.
+</footer>
+</body>
+</html>

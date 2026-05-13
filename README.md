@@ -1,13 +1,12 @@
 # GuiCoder16.github.io
 #Guilherme Henrique
 
-👨‍💻 Desenvolvedor Front‑end | HTML • CSS • JavaScript • React  
+👨‍💻 Desenvolvedor Software | HTML • CSS • JavaScript • React • Java • Python 
 📍 Guarulhos – SP, Brasil
 
 ##Sobre mim
 
-Sou desenvolvedor front‑end em início de carreira, focado em criar interfaces
-responsivas, acessíveis e com boa experiência do usuário.
+Sou desenvolvedor de software em início de carreira, focado em criar sistemas responsivos, acessíveis e seguros.
 Este repositório reúne meus principais projetos práticos e estudos.
 
 ##Tecnologias

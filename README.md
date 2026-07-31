@@ -18,6 +18,7 @@ Este repositório reúne meus principais projetos práticos e estudos.
 - Git & GitHub
 - Java
 - Python
+- Firebase
   
 ##Projetos
 
@@ -29,3 +30,6 @@ Este repositório reúne meus principais projetos práticos e estudos.
 
 ##Sistema de Cadastro de Pessoas
 - Java
+
+##CarretaLog
+- JavaScript (ES6+), HTML, CSS e Firebase
